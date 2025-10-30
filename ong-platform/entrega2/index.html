@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ONG Exemplo — Início</title>
+  <meta name="description" content="ONG Exemplo - missão, visão e ações sociais." />
+
+  <!-- CSS (ordem importa) -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+  <!-- HEADER (menu responsivo) -->
+  <header class="site-header">
+    <div class="container navbar">
+      <div class="brand">
+        <a href="index.html" class="flex-center" aria-label="Página inicial">
+          <img src="images/logo.png" alt="Logo ONG Exemplo">
+        </a>
+      </div>
+
+      <!-- toggle mobile -->
+      <input type="checkbox" id="nav-toggle" aria-label="Abrir menu">
+      <label for="nav-toggle" class="hamburger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html" aria-current="page">Início</a></li>
+          <li class="has-submenu">
+            <a href="projetos.html" aria-haspopup="true" aria-expanded="false">Projetos</a>
+            <ul class="submenu" aria-label="Mais em Projetos">
+              <li><a href="projetos.html#andamento">Em andamento</a></li>
+              <li><a href="projetos.html#doar">Como doar</a></li>
+              <li><a href="projetos.html#voluntariado">Voluntariado</a></li>
+            </ul>
+          </li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTEÚDO -->
+  <main class="container">
+    <section class="hero" aria-labelledby="titulo-hero">
+      <h1 id="titulo-hero">Nossa Missão</h1>
+      <p>Promover inclusão social por meio de ações educativas e ambientais nas comunidades onde atuamos.</p>
+      <p><a class="btn btn-primary" href="cadastro.html">Quero participar</a></p>
+    </section>
+
+    <section class="section" aria-labelledby="img-destaque">
+      <h2 id="img-destaque" class="sr-only">Imagem de destaque</h2>
+      <picture>
+        <source srcset="images/header-project.webp" type="image/webp">
+        <source srcset="images/header-project.jpg" type="image/jpeg">
+        <img src="images/header-project.jpg" alt="Voluntários em ação na natureza" loading="lazy" width="1200" height="500">
+      </picture>
+    </section>
+
+    <section class="section" aria-labelledby="conquistas">
+      <h2 id="conquistas">Histórico e Conquistas</h2>
+      <div class="grid grid-12">
+        <article class="card span-12 md-span-6">
+          <div class="card-body">
+            <div class="card-title">Projeto Escola Verde</div>
+            <div class="card-meta"><span class="badge green">Meio Ambiente</span></div>
+            <p>Desde 2018, levando educação ambiental a escolas públicas e comunidades.</p>
+          </div>
+        </article>
+        <article class="card span-12 md-span-6">
+          <div class="card-body">
+            <div class="card-title">Capacitação Jovem</div>
+            <div class="card-meta"><span class="badge blue">Educação</span></div>
+            <p>Mais de 300 jovens capacitados em tecnologia e cidadania.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="contato">
+      <h2 id="contato">Contato</h2>
+      <address>
+        Rua Exemplo, 123 — Bairro — Cidade/UF<br />
+        Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a><br />
+        E-mail: <a href="mailto:contato@ongexemplo.org">contato@ongexemplo.org</a>
+      </address>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© 2025 ONG Exemplo — Transparência e responsabilidade.</div>
+  </footer>
+
+  <!-- MODAL -->
+  <div id="modal">
+    <div class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal">
+        <a class="modal-close" href="#" aria-label="Fechar">×</a>
+        <h3 id="modal-title">Detalhes</h3>
+        <p>Indicadores, metas e como participar.</p>
+        <p><a class="btn btn-primary" href="cadastro.html">Participar</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <input type="checkbox" id="toast-toggle">
+  <label for="toast-toggle" class="btn btn-secondary" style="position:fixed; left:1rem; bottom:1rem;">Mostrar Toast</label>
+  <div class="toast" role="status">Bem-vindo(a) ao nosso site!</div>
+
+</body>
+</html>

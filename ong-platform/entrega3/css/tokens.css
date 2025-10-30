@@ -1,0 +1,71 @@
+/* ========== TOKENS / DESIGN SYSTEM ========== */
+
+/* Paleta de cores (>=8 cores) */
+:root{
+  /* primárias */
+  --color-primary-700:#0B3B5C;
+  --color-primary-600:#0E4A75;
+  --color-primary-500:#1368A5; /* principal */
+  --color-primary-300:#5AA9E6;
+
+  /* secundárias / acento */
+  --color-secondary-600:#146C43;
+  --color-secondary-500:#198754;
+  --color-accent-500:#F59E0B;
+
+  /* estado */
+  --color-success:#22C55E;
+  --color-info:#3B82F6;
+  --color-warning:#F59E0B;
+  --color-danger:#EF4444;
+
+  /* neutros */
+  --color-neutral-900:#0F172A;
+  --color-neutral-800:#1F2937;
+  --color-neutral-700:#374151;
+  --color-neutral-600:#4B5563;
+  --color-neutral-500:#6B7280;
+  --color-neutral-400:#9CA3AF;
+  --color-neutral-300:#D1D5DB;
+  --color-neutral-200:#E5E7EB;
+  --color-neutral-100:#F3F4F6;
+  --color-white:#FFFFFF;
+
+  /* Tipografia (>=5 tamanhos) */
+  --fs-2xl: clamp(2rem, 2.5vw, 2.5rem);
+  --fs-xl:  clamp(1.5rem, 1.8vw, 2rem);
+  --fs-lg:  1.25rem;
+  --fs-md:  1rem;
+  --fs-sm:  0.875rem;
+  --fs-xs:  0.75rem;
+
+  /* Espaçamento modular (8,16,24,32,48,64) */
+  --space-8:  0.5rem;
+  --space-16: 1rem;
+  --space-24: 1.5rem;
+  --space-32: 2rem;
+  --space-48: 3rem;
+  --space-64: 4rem;
+
+  /* Raios e sombras */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --shadow-1: 0 2px 8px rgba(0,0,0,.08);
+  --shadow-2: 0 8px 24px rgba(0,0,0,.12);
+
+  /* Breakpoints (>=5) */
+  --bp-xs: 360px;
+  --bp-sm: 480px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+}
+
+/* helpers de cor de texto/fundo */
+:root{
+  --bg: var(--color-white);
+  --fg: var(--color-neutral-900);
+  --muted: var(--color-neutral-600);
+  --link: var(--color-primary-500);
+}

@@ -1,0 +1,14 @@
+:root{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;}
+*{box-sizing:border-box}
+body{margin:0;padding:1rem;line-height:1.4}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+nav ul{list-style:none;padding:0;margin:0;display:flex;gap:1rem}
+img{max-width:100%;height:auto;display:block}
+label{display:block;margin-top:0.75rem}
+input,select,button,textarea{display:block;width:100%;padding:0.5rem;border:1px solid #ccc;border-radius:6px}
+fieldset{margin-top:1rem;border:1px solid #eee;padding:1rem;border-radius:8px}
+button{cursor:pointer;background:#036;color:#fff;border:none;padding:0.6rem 1rem}
+@media(min-width:700px){
+  main{max-width:900px;margin:0 auto}
+  nav ul{gap:1.5rem}
+}
