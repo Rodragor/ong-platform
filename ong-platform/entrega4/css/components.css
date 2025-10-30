@@ -1,0 +1,33 @@
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.625rem 1rem;font-weight:600;border-radius:12px;border:1px solid transparent;cursor:pointer;text-decoration:none;transition:transform .04s ease,background .2s ease,border-color .2s ease}
+.btn:active{transform:translateY(1px)}
+.btn:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.btn-primary{background:var(--color-primary-600);color:#fff}
+.btn-primary:hover{background:var(--color-primary-700)}
+.btn-secondary{background:var(--color-secondary-500);color:#fff}
+.btn-ghost{background:transparent;border-color:var(--border);color:var(--fg)}
+.btn-ghost:hover{background:var(--surface-2)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;box-shadow:var(--shadow-1);overflow:hidden;display:flex;flex-direction:column}
+.card-media img{aspect-ratio:16/9;object-fit:cover}
+.card-body{padding:var(--space-16)}
+.card-title{font-size:var(--fs-lg);margin-bottom:.25rem}
+.card-meta{color:var(--muted);font-size:var(--fs-sm);margin-bottom:.5rem}
+.form fieldset{border:1px solid var(--border);border-radius:12px;padding:var(--space-16)}
+.form label{display:block;font-weight:600;margin-top:var(--space-8)}
+.form input,.form select,.form textarea{width:100%;padding:.65rem .75rem;border:1px solid var(--neutral-300);border-radius:12px;background:var(--surface);color:var(--fg)}
+.form input:focus,.form select:focus,.form textarea:focus{border-color:var(--color-primary-600);outline:3px solid rgba(19,104,165,.2)}
+.form input:invalid{border-color:var(--color-danger);background:#fff5f5}
+.form input:valid{border-color:var(--color-success)}
+.alert{padding:.75rem 1rem;border-radius:12px;border:1px solid transparent;display:flex;gap:.75rem;align-items:flex-start;margin:.75rem 0}
+.alert-success{background:#ecfdf5;border-color:#bbf7d0;color:#166534}
+.alert-info{background:#eff6ff;border-color:#bfdbfe;color:#1e3a8a}
+.alert-warning{background:#fffbeb;border-color:#fde68a;color:#92400e}
+.alert-danger{background:#fef2f2;border-color:#fecaca;color:#991b1b}
+.badge{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .5rem;border-radius:999px;font-size:.75rem;background:var(--surface-2);color:var(--neutral-700);border:1px solid var(--border)}
+.badge.green{background:#ecfdf5;color:#065f46;border-color:#bbf7d0}
+.badge.blue{background:#eff6ff;color:#1e3a8a;border-color:#bfdbfe}
+.badge.amber{background:#fffbeb;color:#92400e;border-color:#fde68a}
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;align-items:center;justify-content:center;padding:var(--space-16)}
+.modal{background:var(--surface);border-radius:16px;max-width:560px;width:100%;box-shadow:var(--shadow-2);padding:var(--space-24);color:var(--fg)}
+.modal-close{float:right;font-weight:700}
+#modal:target .modal-overlay{display:flex}
+.toast{position:fixed;right:1rem;bottom:1rem;background:#111;color:#fff;padding:.75rem 1rem;border-radius:12px;opacity:0;transform:translateY(8px);transition:.2s ease;box-shadow:var(--shadow-2)}
