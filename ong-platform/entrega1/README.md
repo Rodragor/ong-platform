@@ -1,9 +1,9 @@
 # Entrega 1 — Estrutura HTML5 Semântica
 
-## 🎯 Objetivo
+## Objetivo
 Desenvolver a base estrutural da plataforma web para ONGs utilizando os fundamentos de **HTML5**, com foco em semântica, formulários e multimídia.
 
-## 📄 Conteúdo da Entrega
+## Conteúdo da Entrega
 - 3 páginas HTML semânticas:
   - `index.html` — página inicial com informações da ONG e contatos.  
   - `projetos.html` — apresentação de projetos sociais e oportunidades de voluntariado.  
@@ -11,9 +11,9 @@ Desenvolver a base estrutural da plataforma web para ONGs utilizando os fundamen
 - Hierarquia de títulos coerente (`<h1>`, `<h2>`, `<h3>`).
 - Imagens otimizadas em múltiplos formatos (`.jpg`, `.png`).
 
-## 🧰 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **HTML5**
 - Estrutura semântica e tags modernas.
 - Formulários HTML com validação nativa e máscaras de input.
 
-## 🗂️ Estrutura de Pastas
+## Estrutura de Pastas
