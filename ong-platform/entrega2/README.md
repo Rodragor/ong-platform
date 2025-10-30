@@ -1,9 +1,9 @@
 # Entrega 2 — Estilização CSS3 e Design Responsivo
 
-## 🎯 Objetivo
+## Objetivo
 Aplicar **CSS3** para transformar a estrutura HTML em uma interface visual moderna, acessível e responsiva.
 
-## 📄 Conteúdo da Entrega
+## Conteúdo da Entrega
 - Implementação de **Design System** com:
   - Paleta de 8 cores.
   - Tipografia hierárquica (5 tamanhos de fonte).
@@ -16,10 +16,10 @@ Aplicar **CSS3** para transformar a estrutura HTML em uma interface visual moder
   - Formulários estilizados.
   - Badges, alerts, modals e toasts.
 
-## 🧰 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **CSS3**
 - **Grid Layout**
 - **Flexbox**
 - Mobile-first design
 
-## 🗂️ Estrutura de Pastas
+## Estrutura de Pastas
